@@ -4,7 +4,7 @@ require 'active_record'
 
 Bundler.require
 
-require_all 'app'
+require 'app'
 
 DBNAME = "tvshows"
 
