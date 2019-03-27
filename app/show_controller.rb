@@ -1,5 +1,5 @@
 def highest_rating
-  Show.minimum(:)
+  Show.minimum(:rating)
 end 
 
 def most_popular_show
