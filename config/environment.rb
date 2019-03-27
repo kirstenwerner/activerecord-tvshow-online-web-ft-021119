@@ -4,6 +4,7 @@ require 'active_record'
 
 Bundler.require
 
+require_all 'app'
 
 DBNAME = "tvshows"
 
@@ -20,4 +21,3 @@ if ENV["ACTIVE_RECORD_ENV"] == "test"
   ActiveRecord::Migration.verbose = false
 end
 
-require_all 'app'
